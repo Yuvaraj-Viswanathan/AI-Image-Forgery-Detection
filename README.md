@@ -54,9 +54,9 @@ ai-image-forgery-detector/
 ├── models/
 │ └── ela_model.h5 # Trained model
 ├── images/
-│ ├── real1.jpg, fake1.jpg... # Sample images
+│ ├── real1.jpg, fake1.jpg # Sample images
 ├── ela_images/
-│ └── *_ELA.jpg # ELA outputs
+│ └── real_1_ELA.jpg, fake_1_ELA.jpg # ELA outputs
 ├── ai_forgery_report.pdf # Final report
 ├── requirements.txt
 └── README.md
