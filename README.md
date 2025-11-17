@@ -1,30 +1,30 @@
-# 🔍 AI Image Forgery Detection Tool (ELA + ResNet50)
+# AI Image Forgery Detection Tool (ELA + ResNet50)
 
 This project detects manipulated or AI-generated images using **Error Level Analysis (ELA)** and a **Convolutional Neural Network (ResNet50)**. It includes a **Streamlit web app** that allows users to upload images and instantly check if they are real or fake.
 
-> 📘  Independent AI Research Project | MIT Campus, Anna University  
-> 🧑‍💻 Author: Yuvaraj V (2022504554)  
-> 📄 [Download Full Report](./ai_forgery_report.pdf)
+> Independent AI Research Project | MIT Campus, Anna University  
+> Author: Yuvaraj V (2022504554)  
+>  [Download Full Report](./ai_forgery_report.pdf)
 
 ---
 
-## 🧠 What is ELA?
+##  What is ELA?
 
 **Error Level Analysis (ELA)** reveals tampered regions in an image by detecting differences in JPEG compression. Real images have uniform error levels. Manipulated parts stand out due to inconsistent compression artifacts.
 
 ---
 
-## 🚀 Features
+##  Features
 
-- 📤 Upload `.jpg`, `.jpeg`, or `.png` images
-- 🔬 ELA preprocessing for manipulation detection
-- 🧠 ResNet50-based deep learning model
-- ✅ Real-time prediction with confidence score
-- 🌐 Streamlit-powered web app
+- Upload `.jpg`, `.jpeg`, or `.png` images
+- ELA preprocessing for manipulation detection
+- ResNet50-based deep learning model
+- Real-time prediction with confidence score
+- Streamlit-powered web app
 
 ---
 
-## 🖼️ How It Works
+## How It Works
 
 1. **User Uploads an Image**
 2. **ELA Preprocessing** (via `resize_ela.py`)
@@ -33,7 +33,7 @@ This project detects manipulated or AI-generated images using **Error Level Anal
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 | Tool         | Purpose                          |
 |--------------|----------------------------------|
@@ -45,7 +45,7 @@ This project detects manipulated or AI-generated images using **Error Level Anal
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 ```
 ai-image-forgery-detector/
 ├── app.py # Streamlit app
@@ -65,7 +65,7 @@ ai-image-forgery-detector/
 
 ---
 
-## 🧪 How It Works
+##  How It Works
 
 1. **ELA Conversion**  
    `resize_ela.py` simulates JPEG compression, finds the difference (error), and enhances contrast.
@@ -78,7 +78,7 @@ ai-image-forgery-detector/
 
 ---
 
-## ⚙️ Technologies Used
+##  Technologies Used
 
 - Python 3
 - Streamlit
@@ -89,7 +89,7 @@ ai-image-forgery-detector/
 
 ---
 
-## ▶️ Run the App
+##  Run the App
 
 ```bash
 # Install requirements
